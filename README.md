@@ -4,14 +4,15 @@ Foi desenvolvido um sistema de almoxarifado que permita o cadastro de itens com 
 
 Nesse projeto foi aplicado a Orientação a Objetos do Java, usando os três pilares:
 
-- Herança: é um jeito da Orientação a Objetos de uma uma Superclasse e as filhas vão herdar as características
-- Polimorfismo: cria uma função única que pode ser utilizada em diferentes classes do nosso código
-- Encapsulamento: habilidade de encapsular as nossas variáveis para evitar vazamento de dados, privando as classes e deixando públicas apenas a entrada e saída de dados.
+- Herança: Permite que uma Subclasse herde propriedades e métodos da Superclasse, promovendo a reutilização de código.
+- Encapsulamento: Habilidade de encapsular as nossas variáveis para evitar vazamento de dados, privando as classes e deixando públicas apenas a entrada e saída de dados.
 
 A classe Banco De Dados é responsável por pegar os itens que foram cadastrados e salvar no Banco de Dados.
-A classe Item é onde está lógica para cadastrar os itens que tem no almoxarifado usando o get e set.
 
-Get: É como se você pedisse educadamente para a classe mostrar o valor de um atributo específico. A classe então retorna esse valor.
-Set: É como se você pedisse educadamente para a classe alterar o valor de um atributo específico. A classe recebe o novo valor e o armazena
+A classe Item é onde está lógica para cadastrar os itens que tem no almoxarifado usando o get e set. 
+Onde o Get permite que outras classes leiam os valores desses atributos de forma segura através dos getters.
+E o Set permite que outras classes modifiquem os valores desses atributos de forma controlada através dos setters, possibilitando a adição de lógica de validação ou outras operações antes da atribuição.
+
+
 
 
